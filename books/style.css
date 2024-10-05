@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.container .bg img{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 110%;
+    object-fit: cover;
+    z-index: -1;
+}
+#header{
+    background: #7d6628c1;
+    width: 65dvw;
+    height: 10dvh;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px;
+    position: absolute;
+    margin: 0 ;
+    top: 7.5vh;
+    left: calc((35dvw / 2) - 30px);
+    border: .5px solid rgba(255, 255, 255, 0.5);
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: clamp(10px, 4vw , 25px);
+        font-family: "Fredoka", sans-serif;
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+        ion-icons{
+            font-weight: bold;
+            font-size:inherit ;
+        }    
+    }
+}
+#home{
+    width: 100%; 
+    border-radius: 30px;   
+}
+h2{
+    text-align: center;
+font-size: 70px;
+font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #7D6628;
+  margin-top: 80px;
+  text-shadow: 
+    -2px -2px 0 white,  
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
+
+}
+
+.card-list .card-item{
+    margin-top: 110px;
+    min-width: 1dvi;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    
+}
+.card-list .card-item img{
+    width: 250px;
+    aspect-ratio: 3/4;
+    filter: drop-shadow(0 0 5px #000);
+    transition: 0.7s;
+    
+}
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 80%;
+    margin: 0px auto;
+    margin-top: -97px;
+    
+}
+
+.slider-wrapper .swiper-pagination-bullet{
+   
+    height: 15px;
+    width: 30px;
+
+}
+.slider-wrapper .swiper-button-prev{
+    margin-top:-10px;
+    transition: 0.8s;
+    margin-left: 20px;
+
+
+
+}
+.card-list .card-item .links{
+
+    display: flex;
+
+}
+
