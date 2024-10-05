@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+    <button id="playSoundBtn">></button>
+
+    <!-- Add your audio file -->
+    <audio id="audioPlayer">
+      <source src="3.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <script>
+        // Get the button and audio element
+const playSoundBtn = document.getElementById('playSoundBtn');
+const audioPlayer = document.getElementById('audioPlayer');
+
+// Add an event listener to the button
+playSoundBtn.addEventListener('click', () => {
+  // Play the audio
+  audioPlayer.play();
+});
+    </script>
+</body>
+</html>

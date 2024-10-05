@@ -1,0 +1,18 @@
+#playSoundBtn{
+    width: 50px;
+    height:50px;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    display: grid;
+    place-items: center;
+    background-color: #44271f;
+    color: #fff;
+    filter: drop-shadow(0 0 5px #0000008a);
+    transition: .5s;
+    }
+    #playSoundBtn:hover{
+        background-color: #814d40;
+        transition: 1s;
+        border: white;
+    }
